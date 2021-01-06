@@ -33,3 +33,25 @@ header {
 .nav-list a {
   color: #fafafa;
 }
+#mv {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.mv-main {
+  width: 100%;
+  padding-top: 200px;
+}
+.mv-heading {
+  color: #fafafa;
+  font-size: 64px;
+  margin: 0 auto;
+}
+.mv-text {
+  color: #fafafa;
+  font-size: 20px;
+  margin: 10px auto;
+}
