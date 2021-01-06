@@ -163,7 +163,8 @@ header {
   width: 512px;
   text-align: left;
 }
-.p-topic {
+.p-topic,
+.c-topic {
   margin-bottom: 5px;
 }
 .p-text {
