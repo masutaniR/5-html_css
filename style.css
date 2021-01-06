@@ -65,14 +65,13 @@ header {
 .heading {
   color: #000;
   font-size: 32px;
-  padding-bottom: 8px;
 }
 .heading::after {
   content: "";
   display: block;
   width: 70px;
   height: 3px;
-  margin: 0 auto;
+  margin: 8px auto 0 auto;
   background-color: #ec715f;
 }
 .text {
@@ -144,4 +143,29 @@ header {
 }
 .s-text {
   text-align: left;
+}
+.p-container {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+}
+.face-img-box {
+  width: 512px;
+}
+.face-img {
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  background-image: url(img/my-icon.jpg);
+  border-radius: 50%;
+}
+.p-text-box {
+  width: 512px;
+  text-align: left;
+}
+.p-topic {
+  margin-bottom: 5px;
+}
+.p-text {
+  margin-bottom: 20px;
 }
