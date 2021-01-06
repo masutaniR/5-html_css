@@ -216,3 +216,36 @@ footer {
   font-size: 16px;
   text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+  .header,
+  .container {
+    width: 90%;
+  }
+  header {
+    height: 50px;
+  }
+  .logo {
+    height: 50px;
+  }
+  .nav {
+    display: none;
+  }
+  .btn {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 5px 0;
+    border: 1px solid #fafafa;
+  }
+  .btn-line {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #fafafa;
+  }
+  .btn-line:first-child {
+    margin-top: 10px;
+  }
+}
