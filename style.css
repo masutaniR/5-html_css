@@ -170,3 +170,39 @@ header {
 .p-text {
   margin-bottom: 20px;
 }
+.c-container {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+.info-box-container {
+  width: 400px;
+  margin: 0 auto;
+}
+.info-box {
+  width: 130px;
+  margin: 0 auto;
+  text-align: left;
+}
+.link-text {
+  text-decoration: underline;
+}
+.c-topic2 {
+  padding-top: 20px;
+}
+.sns-box-container {
+  width: 400px;
+  margin: 0 auto;
+}
+.sns-box {
+  width: 190px;
+  margin: 0 auto;
+  text-align: left;
+}
+.c-icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+.c-icon:last-child {
+  margin-right: 0;
+}
