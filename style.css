@@ -52,19 +52,20 @@ header {
   font-size: 20px;
   margin: 10px auto;
 }
-#portfolio {
+#portfolio,
+#profile {
   background-color: #eceff1;
 }
 .container {
   width: 1024px;
   margin: 0 auto;
-  padding-bottom: 90px;
+  padding: 90px 0;
   text-align: center;
 }
 .heading {
   color: #000;
   font-size: 32px;
-  padding: 90px 0 8px 0;
+  padding-bottom: 8px;
 }
 .heading::after {
   content: "";
@@ -77,6 +78,8 @@ header {
 .text {
   color: #000;
   font-size: 16px;
+}
+.heading-text {
   padding: 30px 0;
 }
 .pf-img-container {
@@ -115,4 +118,30 @@ header {
 }
 .pf-img:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+.f-container {
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+}
+.strength-container {
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+}
+.strength-container:last-child {
+  margin-right: 0;
+}
+.fas {
+  font-size: 60px;
+}
+.topic {
+  font-size: 20px;
+  color: #000;
+}
+.s-topic {
+  margin: 10px;
+}
+.s-text {
+  text-align: left;
 }
