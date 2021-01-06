@@ -11,7 +11,7 @@ header {
   height: 70px;
   background-color: #ec715f;
 }
-.container {
+.header {
   width: 1024px;
   margin: 0 auto;
 }
@@ -41,14 +41,11 @@ header {
   background-position: center;
   text-align: center;
 }
-.mv-main {
-  width: 100%;
-  padding-top: 200px;
-}
 .mv-heading {
   color: #fafafa;
   font-size: 64px;
   margin: 0 auto;
+  padding-top: 200px;
 }
 .mv-text {
   color: #fafafa;
@@ -58,18 +55,18 @@ header {
 #portfolio {
   background-color: #eceff1;
 }
-.pf-container {
+.container {
+  width: 1024px;
   margin: 0 auto;
   padding-bottom: 90px;
-  width: 920px;
   text-align: center;
 }
-.pf-heading {
+.heading {
   color: #000;
   font-size: 32px;
   padding: 90px 0 8px 0;
 }
-.pf-heading::after {
+.heading::after {
   content: "";
   display: block;
   width: 70px;
@@ -77,12 +74,14 @@ header {
   margin: 0 auto;
   background-color: #ec715f;
 }
-.pf-text {
+.text {
   color: #000;
   font-size: 16px;
   padding: 30px 0;
 }
 .pf-img-container {
+  width: 920px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
