@@ -216,3 +216,119 @@ footer {
   font-size: 16px;
   text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+  .header,
+  .container {
+    width: 90%;
+  }
+  header {
+    height: 50px;
+  }
+  .logo {
+    height: 50px;
+  }
+  .nav {
+    display: none;
+  }
+  .btn {
+    float: right;
+    width: 40px;
+    height: 40px;
+    margin: 5px 0;
+    border: 1px solid #fafafa;
+  }
+  .btn-line {
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #fafafa;
+  }
+  .btn-line:first-child {
+    margin-top: 10px;
+  }
+  #mv {
+    background-image: url(img/code.png);
+  }
+  .mv-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .mv-heading {
+    font-size: 40px;
+  }
+  .mv-text {
+    font-size: 18px;
+  }
+  .pf-img-container {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  .pf-img {
+    margin: 0 0 10px 0;
+  }
+  .pf-img:last-child {
+    margin-bottom: 0;
+  }
+  .bg-1,
+  .bg-3,
+  .bg-5 {
+    display: none;
+  }
+  .f-container {
+    width: 90%;
+    display: block;
+  }
+  .strength-container {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  .strength-container:last-child {
+    margin: 0;
+  }
+  .p-container {
+    width: 90%;
+    display: block;
+  }
+  .face-img-box {
+    width: 250px;
+    margin: 0 auto 20px auto;
+  }
+  .p-text-box {
+    width: 100%;
+    text-align: center;
+  }
+  .p-text {
+    margin-bottom: 20px;
+  }
+  .last-p-text {
+    margin-bottom: 0;
+  }
+  .c-container {
+    width: 90%;
+    display: block;
+  }
+  .info-box-container {
+    width: 100%;
+  }
+  .info-box {
+    width: 100%;
+    text-align: center;
+  }
+  .c-topic2 {
+    padding-top: 20px;
+  }
+  .sns-box-container {
+    width: 100%;
+  }
+  .sns-box {
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .c-icon {
+    margin-right: 8px;
+  }
+}
